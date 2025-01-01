@@ -1,9 +1,9 @@
-var age = 20;
+let age = 20;
 
 function test(){
   var age= 25;
-  console.log(age);
-  console.log(this.age);
+  console.log(age);//25
+  console.log(this.age);//undefined
 }
 
 test();
